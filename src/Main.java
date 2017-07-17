@@ -4,10 +4,10 @@ import java.util.ArrayList;
  */
 public class Main {
     public static void main(String[] args) {
-        ArrayList<GameCharacter> characterList = ListOfCharacters.GetCharacters();
+        ArrayList<GameCharacter> gameCharacters = ListOfCharacters.GetCharacters();
 
-        for(int i=0; i<characterList.size(); i++){
-            System.out.println(characterList.get(i).Play());
+        for(int i=0; i<gameCharacters.size(); i++){
+            System.out.println(gameCharacters.get(i).Play());
 
         }
     }
